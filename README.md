@@ -1,11 +1,34 @@
 # Customer Behavior Analysis and Personalized Recommendations on JD.com
 
 ## Introduction
-JD.com is one of China's largest online retail platforms, specializing in a wide range of consumer goods. The platform processes millions of transactions daily, generating vast amounts of data related to customer behavior, purchasing habits, and preferences. Leveraging this data can help optimize customer experience through personalized recommendations, ultimately driving sales and enhancing customer satisfaction.
+JD.com is one of China's largest e-commerce platforms, operating across multiple locations and offering a wide variety of consumer goods. As a leading online retailer, JD.com generates extensive data on customer behavior, purchasing patterns, and product preferences. 
+
 #### Project Overview
-This capstone project focuses on analyzing customer purchasing behavior on JD.com and developing a personalized recommendation system to suggest products tailored to individual users' preferences.
-###### Key Goals:
-#### Customer Behavior Analysis: 
-Understand patterns and trends in customer purchasing behavior, segmented by demographics like age, gender, economy, and region, as well as external influences such as word of mouth.
-#### Recommendation System: 
-Implement a personalized recommendation engine that suggests products based on customers past purchase behavior and preferences, using collaborative filtering, content-based filtering, or hybrid recommendation methods.
+This project focuses on analyzing customer behavior and predicting purchases on JD.com. Using PySpark and Spark SQL, the data was processed, analyzed, and modeled to extract key insights and build recommendations for improving customer experience and optimizing sales strategies.
+
+#### Technologies Used:
+**Data Processing:** PySpark, Spark SQL
+
+**Database:** SQL Server
+
+**Programming Language:** Python
+
+**Machine Learning:** Regression and Recommendation Models
+
+#### Utilized Spark SQL for efficient querying and analysis of large datasets:
+
+**Top 10 Products:** Queried transaction data to identify the most purchased products.
+
+**Customer Segmentation:** Aggregated customer data to find relationships between age groups, education levels, and purchasing patterns.
+
+**Top 10 Customers:** Ranked customers by total purchases and order frequency.
+
+#### Business Implications
+
+1.Customer Retention Strategies
+
+2.Inventory Optimization
+
+3.Revenue Growth Opportunities
+
+4.Improved Business Decision-Making
